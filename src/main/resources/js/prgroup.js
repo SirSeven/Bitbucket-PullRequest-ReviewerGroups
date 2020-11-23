@@ -413,7 +413,7 @@ define('PrGroup', [
                 emailAddress: "ignored_for_select2",
                 id: "ignored_for_select2",
                 links: [], // Not applicable for reviewers
-                name: displayName,
+                name: username,
                 slug: username, // Yes, this is correct. slug === userName. See: PullRequestGroupProvider getPullRequestGroupWithMembers
                 type: "NORMAL"
             },
